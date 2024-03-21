@@ -61,6 +61,7 @@ class BaseBackend(object):
         self.button_tooltip = button_tooltip
         self.button_icon = button_icon
         self.need_review = need_review
+        self.parent_widget = parent_widget
 
     def set_formatter(self, formatter):
         """
