@@ -42,15 +42,7 @@ def _logger():
 
 
 class BaseBackend(object):
-    """
-    Base class for implementing a backend.
 
-    Subclass must define ``button_text``, ``button_tooltip``and ``button_icon``
-    and implement ``send_report(title, description)``.
-
-    The report's title and body will be formatted automatically by the
-    associated :attr:`formatter`.
-    """
     def __init__(self, formatter, button_text, button_tooltip,
                  button_icon=None, need_review=True, parent_widget=None):
         """
