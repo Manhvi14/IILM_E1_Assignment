@@ -7,6 +7,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn import metrics
 from joblib import dump
 selected_classification = "Pattern Category"
+selected_classification = "Pattern Category"
 
 
 
