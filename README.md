@@ -4,6 +4,8 @@
 
 ## merged conflicts of style branch with main branch.
 ![image](https://github.com/Manhvi14/IILM_E1_Assignment/assets/138321850/4c9f6f5f-6412-48a3-b2b5-e23b94427200)  
+## FINAL OUTPUT
+![image](https://github.com/Manhvi14/IILM_E1_Assignment/assets/138321850/a1b890eb-2f0e-4750-8a7d-bd610ae8900a)
 
 # PART 2
 ## Merged branch1.1.1 with branch1.1
@@ -12,3 +14,4 @@
 ## merge branch1.2 with branch1
 ![image](https://github.com/Manhvi14/IILM_E1_Assignment/assets/138321850/0dba07d7-c18c-4f04-b798-fd304b8154d1)
 ![image](https://github.com/Manhvi14/IILM_E1_Assignment/assets/138321850/6be5cf5c-4421-47a2-9147-56213d35b9cd)
+## FINAL OUTPUT
