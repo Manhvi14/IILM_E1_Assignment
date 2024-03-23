@@ -4,6 +4,7 @@ import os
 import sys
 import webbrowser
 import numpy as np
+import pandas as pd
 try:
     # See: spyder-ide/spyder#10221
     if os.environ.get('SSH_CONNECTION') is None:
