@@ -1,18 +1,3 @@
-# -*- coding: utf-8 -*-
-# -----------------------------------------------------------------------------
-# Copyright (c) 2016 Colin Duquesnoy (QCrash project)
-# Copyright (c) 2018- Spyder Project Contributors
-#
-# Licensed under the terms of the MIT License
-# (see LICENSE.txt in this directory for details)
-# -----------------------------------------------------------------------------
-
-"""
-Backend to open issues automatically on Github.
-
-Adapted from qcrash/backends/base.py and qcrash/backends/github.py of the
-`QCrash Project <https://github.com/ColinDuquesnoy/QCrash>`_.
-"""
 
 import logging
 import os
