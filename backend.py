@@ -58,21 +58,9 @@ class BaseBackend(object):
 
 
 class GithubBackend(BaseBackend):
-    """
-    This backend sends the crash report on a github issue tracker::
-
-        https://github.com/gh_owner/gh_repo
-
-    Usage::
-
-        github_backend = spyder.widgets.github.backend.GithubBackend(
-            'spyder-ide', 'spyder')
-    """
+   
     def __init__(self, gh_owner, gh_repo, formatter=None, parent_widget=None):
-        """
-        :param gh_owner: Name of the owner of the github repository.
-        :param gh_repo: Name of the repository on github.
-        """
+       
         super(GithubBackend, self).__init__(
             formatter, "Submit on github",
             "Submit the issue on our issue tracker on github", None,
