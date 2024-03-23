@@ -64,12 +64,7 @@ class BaseBackend(object):
         self.parent_widget = parent_widget
 
     def set_formatter(self, formatter):
-        """
-        Sets the formatter associated with the backend.
 
-        The formatter will automatically get called to format the report title
-        and body before ``send_report`` is being called.
-        """
         self.formatter = formatter
 
     def send_report(self, title, body, application_log=None):
