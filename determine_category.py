@@ -44,4 +44,7 @@ print("Accuracy:", metrics.accuracy_score(y_pred, y_test))
 
 dump(clf, 'category_classifier.joblib')
 dump(count_vect, 'category_vectorizer.joblib')
-print(y_pred)
+
+
+dump(clf, 'category_classifier.joblib')
+dump(count_vect, 'category_vectorizer.joblib')
