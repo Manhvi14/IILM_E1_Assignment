@@ -6,6 +6,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import metrics
 from joblib import dump
+
 selected_classification = "Pattern Category"
 
 
@@ -44,3 +45,4 @@ print("Accuracy:", metrics.accuracy_score(y_pred, y_test))
 
 dump(clf, 'category_classifier.joblib')
 dump(count_vect, 'category_vectorizer.joblib')
+print(y_pred)
